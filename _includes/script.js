@@ -12,3 +12,11 @@ $('#site-avatar').animateCss('animated zoomIn');
 $('#site-bloglist').animateCss('animated slideInLeft');
 $('#site-content').animateCss('animated slideInRight');
 $('#site-logo').animateCss('animated slideInDown');
+$('#post-header').animateCss('animated slideInDown');
+$('#post-header-title').animateCss('animated slideInDown');
+$('#post-header-meta').animateCss('animated slideInLeft');
+$('#post-header-buttonbar').animateCss('animated slideInUp');
+$('a[href*="#"]').click(function(){
+    var elem = '#fn\\:' + $(this).prop("href").replace(/.*:/, '')
+    $(elem).animateCss('animated bounce');
+});
