@@ -7,12 +7,15 @@
 
 <header id="post-header">
 
-<div id="post-header-title">
     <div id="post-header-title">
     <h1 id="post-header-headline">{{ page.title }}</h1>
     </div>
-    <div id="post-header-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time></div>
-</div>
+
+    <div id="post-header-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>
+    </div>
+
+</header>
+
 
 <div id="post-header-buttonbar">
 
@@ -32,14 +35,14 @@
 
 </div>
 
-</header>
 
 <div id="post-content" itemprop="articleBody">
 {{ content }}
 </div>
-</article>
+
 {% include footer.html %}
 
+</article>
 </body>
 <script>
 {% include script.js %}
