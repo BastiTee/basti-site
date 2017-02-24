@@ -6,12 +6,13 @@ $.fn.extend({
         });
     }
 });
-$('#main-body').animateCss('animated fadeIn');
+$('#site-content').animateCss('animated fadeIn');
 $('#site-title').animateCss('animated zoomIn');
 $('#site-avatar').animateCss('animated zoomIn');
 $('#site-bloglist').animateCss('animated slideInLeft');
 $('#site-content').animateCss('animated slideInRight');
 $('#site-logo').animateCss('animated slideInDown');
+$('#post-content').animateCss('animated fadeIn');
 $('#post-header').animateCss('animated slideInDown');
 $('#post-header-title').animateCss('animated slideInDown');
 $('#post-header-meta').animateCss('animated slideInLeft');
