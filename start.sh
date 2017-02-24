@@ -4,7 +4,7 @@
 cd "$( dirname "$( readlink -f "$0" )")"
 
 # create copies of default files
-for file in _posts _config.yml _includes/site-ext.html _includes/footer.html
+for file in _posts _config.yml _includes/site-ext.html _includes/footer.html _includes/script.js
 do
   if [ -L "$file" ]
   then
