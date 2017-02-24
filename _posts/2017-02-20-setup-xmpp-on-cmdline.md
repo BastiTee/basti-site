@@ -3,7 +3,7 @@ layout: post
 title:  "An XMPP CLI environment with ejabberd & profanity"
 date:   2017-02-20 22:34:49 +0100
 twitter: https://twitter.com/basti_tee/status/834104983842852865
-source:  https://github.com/BastiTee/localhost/blob/master/_posts/2017-02-20-setup-xmpp-on-cmdline.md
+source:  https://github.com/BastiTee/basti-space/blob/master/_posts/2017-02-20-setup-xmpp-on-cmdline.md
 ---
 
 Over the past week I spend some time on investigating and learning how to setup an XMPP[^1] (or "Jabber") environment for secure messaging via command-line. Word on the street was, it'll be a pain and frustrating and, yes, partly I have to agree, but given that one is working with a more or less recent and commonly used system the frustration is manageable :)
