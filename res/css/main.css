@@ -10,7 +10,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #222222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -25,7 +25,7 @@ html {
  */
 
 ::selection {
-    background: #b3d4fc;
+    background: #B3D4FC;
     text-shadow: none;
 }
 
@@ -38,7 +38,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #CCCCCC;
     margin: 1em 0;
     padding: 0;
 }
@@ -81,8 +81,8 @@ textarea {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
+    background: #CCCCCC;
+    color: #000000;
     padding: 0.2em 0;
 }
 
@@ -92,6 +92,7 @@ textarea {
    ==========================================================================
 
    COLORS:
+    #000000 Black
 	#3DA8C5 Basic Blue
 	#DDEFF4 Light Blue Link
 	#777777 Grey (Shadow)
@@ -114,28 +115,25 @@ textarea {
 
 #main-body a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
     background-color: #DDEFF4;
-    box-shadow: 0 3px 5px 0px #dfdfdf;
+    box-shadow: 0 3px 5px 0px #DFDFDF;
 
 }
 
 #main-body h1 {
-    /*text-shadow: 0px 3px 5px #ccc;*/
     font-weight: bold;
     margin: 20px 0px 0px 0px;
     font-size: 130%;
 }
 
 #main-body h2 {
-    /*text-shadow: 0px 3px 5px #ccc;*/
     font-weight: bold;
     margin: 15px 0px 0px 0px;
     font-size: 110%;
 }
 
 #main-body h3, h4, h5 {
-    /*text-shadow: 0px 3px 5px #ccc;*/
     font-weight: normal;
     margin: 10px 0px 0px 0px;
     font-size: 100%;
@@ -152,7 +150,24 @@ textarea {
     font-size: 75%;
     border-radius: 1.2em;
     background-color: #DDEFF4;
-    box-shadow: 0 3px 5px 0px #ccc;
+    box-shadow: 0 3px 5px 0px #CCCCCC;
+}
+
+
+#main-body table {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+#main-body th, td {
+    padding: 0em 1.4em 0em 0em;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#main-body th {
+    font-weight: normal;
+    text-align: left;
+    background-color: #DDEFF4;
 }
 
 /* SITE DEFAULTS (CURRENTLY INDEX PAGE ONLY)
@@ -177,7 +192,7 @@ textarea {
 }
 
 #site-avatar {
-    box-shadow: 0 6px 25px -3px #777;
+    box-shadow: 0 6px 25px -3px #777777;
     margin-top: 5px;
 }
 
@@ -216,8 +231,8 @@ textarea {
     width: 100%;
     padding: 5px 0px 5px 10px;
     background-color: #3DA8C5;
-    color: #fff;
-    box-shadow: 0 6px 25px -3px #aaa;
+    color: #FFFFFF;
+    box-shadow: 0 6px 25px -3px #AAAAAA;
 }
 
 div#post-header-title {
@@ -270,7 +285,7 @@ div#post-header-buttonbar {
 i.button {
     padding: 0.2em;
     transition: all 0.3s cubic-bezier(0.46, 0.03, 0.52, 0.96);
-    box-shadow: 0 3px 5px 0px #aaa;
+    box-shadow: 0 3px 5px 0px #AAAAAA;
 
 }
 
@@ -372,9 +387,9 @@ i#source-button:hover {
 
 .highlight .hll { background-color: #ffffcc }
 .highlight  {
-    background: #eee;
+    background: #EEEEEE;
     margin: 0em 0em 1em 0em;
-    box-shadow: 0 6px 25px -3px #ccc;
+    box-shadow: 0 6px 25px -3px #CCCCCC;
 
 }
 .highlight code {
@@ -551,7 +566,7 @@ i#source-button:hover {
 @media print {
     *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important;
+        color: #000000 !important;
         /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
@@ -574,7 +589,7 @@ i#source-button:hover {
         content: "";
     }
     pre, blockquote {
-        border: 1px solid #999;
+        border: 1px solid #999999;
         page-break-inside: avoid;
     }
     /*
