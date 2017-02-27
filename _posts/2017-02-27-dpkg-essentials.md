@@ -2,8 +2,8 @@
 layout: post
 title: Notes on Debian package (dpkg) regarding system cleanups
 date: '2017-02-27 13:14:00 +0100'
-twitter: null
-source: null
+twitter: https://twitter.com/basti_tee/status/836247582779326468
+source: https://github.com/BastiTee/basti-space/blob/master/_posts/2017-02-27-dpkg-essentials.md
 ---
 
 When working with Debian[^1] or Ubuntu[^2] systems, you will get in contact with Debians package manager `apt` (Advances packaging tool)[^3]. But `apt` itself is only a frontend of `dpkg` making available higher-level functions such as `autoremove` or `update`. While being the tool of choice for installing packages, `apt` tends to be rather restrictive if you want to cleanup your system, e.g., after you've tested a package temporarily. So here are some things you can do in that case with `dpkg` and `dpkg-query`.
@@ -26,7 +26,9 @@ ii  acpid 1:2.0.26-1ubuntu2
 ii  activity-log-manager 0.9.7-0ubuntu23
 ```
 
-Notice the first entry on each line. While many combinations are possible[^4], generally you will come across `ii` for installed packages, `rc` for packages that have been removed, but some (configuration) files remained and `un` for fully uninstalled packages. Building up on that, numerous cleanups are possible. So let's create an alias and have a look.
+Notice the first entry on each line. While many combinations are possible[^4], generally you will come across `ii` for installed packages, `rc` for packages that have been removed, but some (configuration) files remained and `un` for fully uninstalled packages. Even if you only use `apt`, consider the `--purge` option for `apt autoclean` and `apt remove` because most of the time you want to remove the package binaries **and** all configuration files when deleting it. Default is to remove the package binaries only. That's nice if you reinstall the package later, but maybe not what you want. 
+
+Building up on that, numerous cleanups are possible. So let's create an alias and have a look.
 
 ```bash
 basti@home:~$ alias dql="dpkg-query --show --showformat='\${db:Status-Abbrev} \${binary:Package} \${Version}\n'"
