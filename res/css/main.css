@@ -134,9 +134,13 @@ textarea {
 }
 
 #main-body h3, h4, h5 {
-    font-weight: normal;
+    font-weight: bold;
     margin: 10px 0px 0px 0px;
     font-size: 100%;
+}
+
+#main-body .highlighter-rouge {
+    background: #EEEEEE;
 }
 
 #main-body sup {
@@ -392,6 +396,7 @@ i#source-button:hover {
     box-shadow: 0 6px 25px -3px #CCCCCC;
 
 }
+
 .highlight code {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
