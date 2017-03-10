@@ -2,7 +2,6 @@
 layout: post
 title:  "An XMPP CLI environment with ejabberd & profanity"
 date:   2017-02-20 22:34:49 +0100
-twitter: https://twitter.com/basti_tee/status/834104983842852865
 source:  https://github.com/BastiTee/basti-space/blob/master/_posts/2017-02-20-setup-xmpp-on-cmdline.md
 ---
 
