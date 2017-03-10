@@ -9,33 +9,17 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 ---
 
-[Python](#python) \| [DevOps tools](#devops-tools) \| [CMD tools](#command-line-tools)
+[DevOps tools](#devops-tools) \| [CMD tools](#command-line-tools)
 
-[Node.js](#nodejs) \| [WebDev primers](#web-development-primers) \| [WebDev projects](#web-development-projects) \| [CSS/Icons](#css-and-icons) \| [UI frameworks](#ui-frameworks)
+[Python](#python) \| [Machine learning](#machine-learning)
+
+[Node.js](#nodejs) \| [WebDev primers](#web-development-primers) \| [WebDev projects](#web-development-projects) \| [CSS/Icons](#css-and-icons) \| [Web frameworks](#web-frameworks)
 
 [Java](#java) \| [Chess](#chess) \| [Atom editor](#atom-editor) \| [Productivity](#productivity)
 
 [GitHub pages](#github-pages) \| [References](#references) \| [Tutorials](#tutorials) \| [Awesome projects](#awesome-projects)
 
 ---
-
-## Python
-
-[pypa/pip](https://github.com/pypa/pip) The PyPA recommended tool for installing Python packages
-
-[django/django](https://github.com/django/django) The Web framework for perfectionists with deadlines.
-
-[bottlepy/bottle](https://github.com/bottlepy/bottle) bottle.py is a fast and simple micro-framework for python web-applications.
-
-[pallets/flask](https://github.com/pallets/flask) A microframework based on Werkzeug, Jinja2 and good intentions
-
-[kennethreitz/requests](https://github.com/kennethreitz/requests) Python HTTP Requests for Humans™
-
-[trentm/python-markdown2](https://github.com/trentm/python-markdown2) markdown2: A fast and complete implementation of Markdown in Python
-
-[bjarneo/Pytify](https://github.com/bjarneo/Pytify) A CLI application for controlling Spotify
-
-[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) Jupyter Notebooks for the Python Data Science Handbook
 
 ## DevOps tools
 
@@ -53,10 +37,6 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 ## Command-line tools
 
-[transcode-open/apt-cyg](https://github.com/transcode-open/apt-cyg) Apt-cyg, an apt-get like tool for Cygwin
-
-[babun/babun](https://github.com/babun/babun) Babun - a Windows shell you will love!
-
 [ncw/rclone](https://github.com/ncw/rclone) Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
 
 [AlDanial/cloc](https://github.com/AlDanial/cloc) cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.
@@ -69,13 +49,55 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [sferik/t](https://github.com/sferik/t) A command-line power tool for Twitter.
 
+[transcode-open/apt-cyg](https://github.com/transcode-open/apt-cyg) Apt-cyg, an apt-get like tool for Cygwin
+
+[babun/babun](https://github.com/babun/babun) Babun - a Windows shell you will love!
+
+## Python
+
+[pypa/pip](https://github.com/pypa/pip) The PyPA recommended tool for installing Python packages
+
+[django/django](https://github.com/django/django) The Web framework for perfectionists with deadlines.
+
+[bottlepy/bottle](https://github.com/bottlepy/bottle) bottle.py is a fast and simple micro-framework for python web-applications.
+
+[pallets/flask](https://github.com/pallets/flask) A microframework based on Werkzeug, Jinja2 and good intentions
+
+[kennethreitz/requests](https://github.com/kennethreitz/requests) Python HTTP Requests for Humans™
+
+[trentm/python-markdown2](https://github.com/trentm/python-markdown2) markdown2: A fast and complete implementation of Markdown in Python
+
+[bjarneo/Pytify](https://github.com/bjarneo/Pytify) A CLI application for controlling Spotify
+
+## Machine learning
+
+[nltk/nltk](https://github.com/nltk/nltk) NLTK Source
+
+[numpy/numpy](https://github.com/numpy/numpy) Numpy main repository
+
+[scipy/scipy](https://github.com/scipy/scipy) Scipy library main repository
+
+[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) scikit-learn: machine learning in Python
+
+[ujjwalkarn/DataSciencePython](https://github.com/ujjwalkarn/DataSciencePython) common data analysis and machine learning tasks using python
+
+[karpathy/char-rnn](https://github.com/karpathy/char-rnn) Multi-layer Recurrent Neural Networks (LSTM, GRU, RNN) for character-level language models in Torch
+
+[jcjohnson/torch-rnn](https://github.com/jcjohnson/torch-rnn) Efficient, reusable RNNs and LSTMs for torch
+
+[crisbal/docker-torch-rnn](https://github.com/crisbal/docker-torch-rnn) Docker images for using torch-rnn
+
+[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) Jupyter Notebooks for the Python Data Science Handbook
+
+[jtoy/awesome-tensorflow](https://github.com/jtoy/awesome-tensorflow) TensorFlow - A curated list of dedicated resources
+
 ## Node.js
 
 [nodejs/node](https://github.com/nodejs/node) Node.js JavaScript runtime
 
-[jashkenas/underscore](https://github.com/jashkenas/underscore) JavaScript's utility belt
-
 [gulpjs/gulp](https://github.com/gulpjs/gulp) The streaming build system
+
+[jashkenas/underscore](https://github.com/jashkenas/underscore) JavaScript's utility belt
 
 [foreverjs/forever](https://github.com/foreverjs/forever) A simple CLI tool for ensuring that a given script runs continuously (i.e. forever)
 
@@ -133,7 +155,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [pattle/simpsons-in-css](https://github.com/pattle/simpsons-in-css) Simpsons characters in CSS
 
-## UI frameworks
+## Web frameworks
 
 [facebook/flux](https://github.com/facebook/flux) Application Architecture for Building User Interfaces
 
