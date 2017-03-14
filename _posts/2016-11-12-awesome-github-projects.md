@@ -25,6 +25,8 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [docker/docker](https://github.com/docker/docker) Docker - the open-source application container engine
 
+[jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) Various Dockerfiles I use on the desktop and on servers.
+
 [saltstack/salt](https://github.com/saltstack/salt) Software to automate the management and configuration of any infrastructure or application at scale.
 
 [puppetlabs/puppet](https://github.com/puppetlabs/puppet) Server automation framework and application
