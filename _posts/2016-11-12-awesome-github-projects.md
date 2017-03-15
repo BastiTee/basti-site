@@ -3,6 +3,7 @@ layout: post
 title: "Awesome GitHub projects"
 date:   2016-11-12 09:34:49 +0100
 source: https://github.com/BastiTee/basti-space/blob/master/_posts/2016-11-12-awesome-github-projects.md
+twitter: https://twitter.com/basti_tee/status/842004938167320576
 ---
 
 GitHub has loads of awesome projects. [A handful of them](https://github.com/stars/BastiTee?direction=desc&filter=others&sort=stars) are even more awesome to me. And lists ... I mean c'mon. Here is a 🐟 and a long list with categories...

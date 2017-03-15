@@ -3,6 +3,7 @@ layout: post
 title: Notes on Debian package (dpkg) regarding system cleanups
 date: '2017-02-27 13:14:00 +0100'
 source: https://github.com/BastiTee/basti-space/blob/master/_posts/2017-02-27-dpkg-essentials.md
+twitter: https://twitter.com/basti_tee/status/842005451063586816
 ---
 
 When working with Debian[^1] or Ubuntu[^2] systems, you will get in contact with Debians package manager `apt` (Advances packaging tool)[^3]. But `apt` itself is only a frontend of `dpkg` making available higher-level functions such as `autoremove` or `update`. While being the tool of choice for installing packages, `apt` tends to be rather restrictive if you want to cleanup your system, e.g., after you've tested a package temporarily. So here are some things you can do in that case with `dpkg` and `dpkg-query`.

@@ -3,6 +3,7 @@ layout: post
 title:  "GitHub pages & Jekyll bootstrapped on Windows 10"
 date:   2016-12-01 11:34:49 +0100
 source:  https://github.com/BastiTee/basti-space/blob/master/_posts/2016-12-01-jekyll-github-pages-bootstrap-on-win.md
+twitter: https://twitter.com/basti_tee/status/842005093453058048
 ---
 These are the steps I did in order to setup Jekyll/Ruby on Windows 10 and to create the first iteration of this blog.
 
