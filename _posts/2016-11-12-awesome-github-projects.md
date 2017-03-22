@@ -166,6 +166,8 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [electron/electron](https://github.com/electron/electron) Build cross platform desktop apps with web technologies
 
+[Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) Semantic is a UI component framework based around useful principles from natural language
+
 [connors/photon](https://github.com/connors/photon) The fastest way to build beautiful Electron apps using simple HTML and CSS
 
 [expressjs/express](https://github.com/expressjs/express) Fast, unopinionated, minimalist web framework for node.
