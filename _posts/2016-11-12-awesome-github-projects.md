@@ -80,6 +80,8 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [scipy/scipy](https://github.com/scipy/scipy) Scipy library main repository
 
+[networkx/networkx](https://github.com/networkx/networkx) High-productivity software for complex networks
+
 [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) scikit-learn: machine learning in Python
 
 [ujjwalkarn/DataSciencePython](https://github.com/ujjwalkarn/DataSciencePython) common data analysis and machine learning tasks using python
