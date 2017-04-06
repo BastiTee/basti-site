@@ -18,3 +18,6 @@ do
     cp -vr ${file}.default ${file}
   fi
 done
+
+echo "Creating blog resource folder..."
+mkdir -p res/blogres
