@@ -1,28 +1,29 @@
 ---
 layout: post
-title: "Awesome GitHub projects"
-date:   2016-11-12 09:34:49 +0100
-source: https://github.com/BastiTee/basti-space/blob/master/_posts/2016-11-12-awesome-github-projects.md
-twitter: https://twitter.com/basti_tee/status/842004938167320576
+title: Awesome GitHub projects
+date: '2016-11-12 09:34:49 +0100'
+source: >-
+  https://github.com/BastiTee/basti-space/blob/master/_posts/2016-11-12-awesome-github-projects.md
+twitter: 'https://twitter.com/basti_tee/status/842004938167320576'
 ---
 
 GitHub has loads of awesome projects. [A handful of them](https://github.com/stars/BastiTee?direction=desc&filter=others&sort=stars) are even more awesome to me. And lists ... I mean c'mon. Here is a 🐟 and a long list with categories...
 
----
+--------------------------------------------------------------------------------
 
-[DevOps tools](#devops-tools) \| [CMD tools](#command-line-tools)
+[DevOps tools](#devops-tools) | [CMD tools](#command-line-tools)
 
-[Python](#python) \| [Machine learning](#machine-learning)
+[Python](#python)
 
-[Node.js](#nodejs) \| [WebDev primers](#web-development-primers) \| [WebDev projects](#web-development-projects) \| [CSS/Icons](#css-and-icons) \| [Web frameworks](#web-frameworks)
+[Node.js](#nodejs) | [WebDev primers](#web-development-primers) | [WebDev projects](#web-development-projects) | [CSS/Icons](#css-and-icons) | [Web frameworks](#web-frameworks)
 
-[Java](#java) \| [Chess](#chess) \| [Atom editor](#atom-editor) \| [Productivity](#productivity)
+[Java](#java) | [Chess](#chess) | [Atom editor](#atom-editor) | [Productivity](#productivity)
 
-[GitHub pages](#github-pages) \| [References](#references) \| [Tutorials](#tutorials) \| [Awesome projects](#awesome-projects)
+[GitHub pages](#github-pages) | [References](#references) | [Tutorials](#tutorials) | [Awesome projects](#awesome-projects)
 
----
+--------------------------------------------------------------------------------
 
-## DevOps tools
+# DevOps tools
 
 [docker/docker](https://github.com/docker/docker) Docker - the open-source application container engine
 
@@ -38,7 +39,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [giampaolo/psutil](https://github.com/giampaolo/psutil) A cross-platform process and system utilities module for Python
 
-## Command-line tools
+# Command-line tools
 
 [ncw/rclone](https://github.com/ncw/rclone) Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
 
@@ -56,7 +57,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [babun/babun](https://github.com/babun/babun) Babun - a Windows shell you will love!
 
-## Python
+# Python
 
 [pypa/pip](https://github.com/pypa/pip) The PyPA recommended tool for installing Python packages
 
@@ -72,31 +73,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [bjarneo/Pytify](https://github.com/bjarneo/Pytify) A CLI application for controlling Spotify
 
-## Machine learning
-
-[nltk/nltk](https://github.com/nltk/nltk) NLTK Source
-
-[numpy/numpy](https://github.com/numpy/numpy) Numpy main repository
-
-[scipy/scipy](https://github.com/scipy/scipy) Scipy library main repository
-
-[networkx/networkx](https://github.com/networkx/networkx) High-productivity software for complex networks
-
-[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) scikit-learn: machine learning in Python
-
-[ujjwalkarn/DataSciencePython](https://github.com/ujjwalkarn/DataSciencePython) common data analysis and machine learning tasks using python
-
-[karpathy/char-rnn](https://github.com/karpathy/char-rnn) Multi-layer Recurrent Neural Networks (LSTM, GRU, RNN) for character-level language models in Torch
-
-[jcjohnson/torch-rnn](https://github.com/jcjohnson/torch-rnn) Efficient, reusable RNNs and LSTMs for torch
-
-[crisbal/docker-torch-rnn](https://github.com/crisbal/docker-torch-rnn) Docker images for using torch-rnn
-
-[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) Jupyter Notebooks for the Python Data Science Handbook
-
-[jtoy/awesome-tensorflow](https://github.com/jtoy/awesome-tensorflow) TensorFlow - A curated list of dedicated resources
-
-## Node.js
+# Node.js
 
 [nodejs/node](https://github.com/nodejs/node) Node.js JavaScript runtime
 
@@ -112,7 +89,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [ageitgey/node-unfluff](https://github.com/ageitgey/node-unfluff) Automatically extract body content (and other cool stuff) from an html document
 
-## Web development primers
+# Web development primers
 
 [angular/angular.js](https://github.com/angular/angular.js) HTML enhanced for web apps
 
@@ -130,7 +107,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [ariya/phantomjs](https://github.com/ariya/phantomjs/) Scriptable Headless WebKit
 
-## Web development projects
+# Web development projects
 
 [bevacqua/dragula](https://github.com/bevacqua/dragula) Drag and drop so simple it hurts
 
@@ -142,13 +119,15 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [desandro/imagesloaded](https://github.com/desandro/imagesloaded) JavaScript is all like "You images done yet or what?"
 
-[chartjs/Chart.js](https://github.com/chartjs/Chart.js) Simple HTML5 Charts using the \<canvas> tag
+[chartjs/Chart.js](https://github.com/chartjs/Chart.js) Simple HTML5 Charts using the \
+
+<canvas> tag</canvas>
 
 [image-size/image-size](https://github.com/image-size/image-size) Node.JS module for detecting image dimensions
 
 [GoogleChrome/samples](https://github.com/GoogleChrome/samples) A repo containing samples tied to new functionality in each release of Google Chrome
 
-## CSS and icons
+# CSS and icons
 
 [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic font and CSS toolkit
 
@@ -160,7 +139,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [pattle/simpsons-in-css](https://github.com/pattle/simpsons-in-css) Simpsons characters in CSS
 
-## Web frameworks
+# Web frameworks
 
 [facebook/flux](https://github.com/facebook/flux) Application Architecture for Building User Interfaces
 
@@ -174,11 +153,11 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [expressjs/express](https://github.com/expressjs/express) Fast, unopinionated, minimalist web framework for node.
 
-## Java
+# Java
 
 [mockito/mockito](https://github.com/mockito/mockito) Mocking framework for unit tests written in Java
 
-## Chess
+# Chess
 
 [ornicar/lila](https://github.com/ornicar/lila) The forever free, adless and open source chess server.
 
@@ -192,7 +171,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [cgearhart/Chessnut](https://github.com/cgearhart/Chessnut) Python chess model
 
-## Atom Editor
+# Atom Editor
 
 [atom/atom](https://github.com/atom/atom) The hackable text editor
 
@@ -200,7 +179,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [abe33/atom-pigments](https://github.com/abe33/atom-pigments) An Atom package to display colors in project and files.
 
-## Productivity
+# Productivity
 
 [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) IntelliJ IDEA Community Edition
 
@@ -210,7 +189,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [gcmd/gnome-commander](https://github.com/gcmd/gnome-commander) A powerful file manager for the linux desktop
 
-## GitHub pages
+# GitHub pages
 
 [jekyll/jekyll](https://github.com/jekyll/jekyll) Jekyll is a blog-aware, static site generator in Ruby
 
@@ -220,7 +199,7 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [badges/shields](https://github.com/badges/shields) Shields badge specification, website and default API server
 
-## References
+# References
 
 [sindresorhus/awesome](https://github.com/sindresorhus/awesome) A curated list of awesome lists
 
@@ -238,13 +217,13 @@ GitHub has loads of awesome projects. [A handful of them](https://github.com/sta
 
 [jgm/CommonMark](https://github.com/jgm/CommonMark) CommonMark spec, with reference implementations in C and JavaScript
 
-## Tutorials
+# Tutorials
 
 [paulrobertlloyd/roadtrip](https://github.com/paulrobertlloyd/roadtrip) A five-part responsive web design tutorial, written for netmagazine.com and published in 2012.
 
 [manuelkiessling/nodebeginner.org](https://github.com/manuelkiessling/nodebeginner.org) A comprehensive Node.js tutorial for beginners
 
-## Awesome projects
+# Awesome projects
 
 [Microsoft/pxt](https://github.com/Microsoft/pxt) Programming eXperience Toolkit
 
