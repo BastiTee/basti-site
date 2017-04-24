@@ -158,6 +158,10 @@ textarea {
     box-shadow: 0 3px 5px 0px #CCCCCC;
 }
 
+#main-body blockquote {
+    font-style: italic;
+    background-color: #e1eef2;
+}
 
 #main-body table {
     margin-top: 10px;
