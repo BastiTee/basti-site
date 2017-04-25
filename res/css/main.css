@@ -103,7 +103,7 @@ textarea {
 ============================================================================*/
 
 #main-body {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Condensed', monospace;
     margin: 0px;
     padding: 0px;
     font-size: 110%;
@@ -160,9 +160,15 @@ textarea {
     box-shadow: 0 3px 5px 0px #CCCCCC;
 }
 
-#main-body blockquote {
-    font-style: italic;
-    background-color: #e1eef2;
+#post-content blockquote {
+    /*font-style: italic;*/
+    margin: 0.5em 0em 0.5em 0em;
+    text-align: center;
+}
+
+#post-content blockquote p {
+    /*background-color: #e1eef2;*/
+    margin: auto;
 }
 
 #main-body table {
@@ -202,7 +208,7 @@ textarea {
 }
 
 #site-header p {
-    font-family: 'Share Tech Mono';
+    font-family: 'Share Tech Mono', monospace;
     font-size: 200%;
     color: #3DA8C5;
     margin: 0.1em 0em 0.1em 0em;
@@ -280,7 +286,7 @@ div#post-header-meta {
 #post-content {
     margin:auto;
     padding: 0px 10px 10px 10px;
-    max-width: 45em;
+    max-width: 40em;
 }
 
 #post-content .footnotes {
