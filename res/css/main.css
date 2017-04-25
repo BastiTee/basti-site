@@ -104,8 +104,9 @@ textarea {
 
 #main-body {
     font-family: 'PT Sans Narrow', sans-serif;
-    margin: 0px 10px 0px 0px;
+    margin: 0px;
     padding: 0px;
+    font-size: 110%;
     overflow-x: hidden;
 }
 
@@ -126,6 +127,7 @@ textarea {
     font-weight: bold;
     margin: 20px 0px 0px 0px;
     font-size: 130%;
+
 }
 
 #main-body h2 {
@@ -164,8 +166,10 @@ textarea {
 }
 
 #main-body table {
-    margin-top: 10px;
     border-collapse: collapse;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #main-body th, td {
@@ -246,7 +250,7 @@ textarea {
 
 #post-header {
     width: 100%;
-    padding: 5px 0px 5px 10px;
+    padding: 5px 0px 5px 0px;
     background-color: #3DA8C5;
     color: #FFFFFF;
     box-shadow: 0 6px 25px -3px #AAAAAA;
@@ -255,24 +259,28 @@ textarea {
 div#post-header-title {
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 #post-header-headline {
-    margin: 0;
+    margin: 0px;
     display: inline-block;
 }
 
 h1#post-header-headline {
     background-color: #3DA8C5;
-    margin: 7px 0px 10px 0px;
+    margin: 7px 10px 10px 10px;
 }
 
 div#post-header-meta {
     width: 100%;
+    text-align: center;
 }
 
 #post-content {
-    padding: 0px 0px 10px 10px;
+    margin:auto;
+    padding: 0px 10px 10px 10px;
+    max-width: 45em;
 }
 
 #post-content .footnotes {
