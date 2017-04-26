@@ -10,11 +10,12 @@
 <ul >
 {% for post in site.posts %}
 <li>
-<a class="site-bloglink" href="{{ post.url }}">{{ post.title }}</a><span class="site-blogmeta"> &#8226; {{ post.date | date: "%d.%m.%Y" }}</span><br/>
+<span class="site-blogmeta">{{ post.date | date: "%d.%m.%Y" }}</span><br/>
+<a class="site-bloglink" href="{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endfor %}
 </ul>
-
+<br/>
 </div>
 
 </body>

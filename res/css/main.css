@@ -115,12 +115,34 @@ textarea {
     padding: 0px;
 }
 
-#main-body a {
-    text-decoration: none;
-    color: #000000;
-    background-color: #DDEFF4;
-    box-shadow: 0 3px 5px 0px #DFDFDF;
 
+#main-body a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 2px solid #dddddd;
+}
+
+#main-body a.reversefootnote {
+    border-bottom: none;
+}
+
+#site-footer a {
+    border-bottom: none;
+}
+
+#main-body a.footnote {
+    font-style: normal;
+    margin: 0em 0.4em 0em 0.4em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    font-size: 75%;
+    border-radius: 1.2em;
+    background-color: #DDEFF4;
+    border-bottom: none;
+}
+
+#main-body a.footnote:hover {
+    background-color: #3DA8C5;
+    color: #FFFFFF;
 }
 
 #main-body h1 {
@@ -150,24 +172,12 @@ textarea {
     vertical-align: text-top;;
 }
 
-#main-body a.footnote {
-    font-style: normal;
-    margin: 0em 0.4em 0em 0.4em;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    font-size: 75%;
-    border-radius: 1.2em;
-    background-color: #DDEFF4;
-    box-shadow: 0 3px 5px 0px #CCCCCC;
-}
-
 #post-content blockquote {
-    /*font-style: italic;*/
     margin: 0.5em 0em 0.5em 0em;
     text-align: center;
 }
 
 #post-content blockquote p {
-    /*background-color: #e1eef2;*/
     margin: auto;
 }
 
@@ -329,7 +339,7 @@ div#back-container {
 div#back-container a {
     background-color: transparent;
     box-shadow: none;
-
+    border-bottom: none;
 }
 
 div#back-container i {
@@ -355,6 +365,7 @@ div#twitter-container {
 div#twitter-container a {
     background-color: transparent;
     box-shadow: none;
+    border-bottom: none;
 }
 
 div#twitter-container i {
@@ -410,7 +421,8 @@ i#source-button:hover {
 #site-footer img {
 }
 
-#site-footer a {
+#site-footer p {
+    margin: 0px;
 }
 
 /* ROUGE CODE HIGHLIGHTING
