@@ -11,20 +11,9 @@
     <link href='{{ " /res/font/robotocondensed.css " }}' rel='stylesheet' type='text/css'>
     <link href='{{ " /res/font/fontawesome.css " }}' rel='stylesheet' type='text/css'>
 
-    {% if page.d3enabled %}
-    <link rel="stylesheet" href="{{ site.vizhost }}/d3_wb/d3-wb.css">
-    <script src="{{ site.vizhost }}/d3_wb/d3.min.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3.layout.cloud.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-sankey.min.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/jquery.min.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/underscore.min.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb-chord.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb-donut.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb-heatmap.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb-packedbubbles.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb-timeseries.js"></script>
-    <script src="{{ site.vizhost }}/d3_wb/d3-wb-wordcloud.js"></script>
+    {% if page.d3WorkbenchVersion == '0.2.0' %}
+    <script src="https://cdn.rawgit.com/BastiTee/d3-workbench/master/d3-wb-releases/0.2.0/d3-wb.0.2.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/BastiTee/d3-workbench/master/d3-wb-releases/0.2.0/d3-wb.0.2.0.min.css">
     {% else %}
     <script src='{{ " /res/lib/jquery-3.1.1.min.js " }}'></script>
     {% endif %}
