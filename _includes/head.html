@@ -5,6 +5,11 @@
     <title>{% if page.title %}{{ site.title | escape }} &#183; {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    
+    <!-- ##################################################################
+         # DEFINITION OF LOCAL STYLES 
+         ##################################################################-->
+    
     <link rel="stylesheet" href="{{ " /res/css/main.css " }}">
     <link href='{{ " /res/css/animate.css " }}' rel='stylesheet' type='text/css'>
     <link href='{{ " /res/font/sharetechmono.css " }}' rel='stylesheet' type='text/css'>
@@ -22,12 +27,16 @@
     {% elsif page.d3wb == '0.4.0' %}
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://cdn.rawgit.com/BastiTee/d3-workbench/50d27577/d3-wb-releases/0.4.0/d3-wb.min.js"></script>
-    <script src='{{ " /res/lib/jquery-3.1.1.min.js " }}'></script>
     {% elsif page.d3wb == '0.5.0' %}
     <script src="https://cdn.rawgit.com/BastiTee/d3-workbench/f8ebb45e/d3-wb-releases/0.5.0-pre.da26424/d3-wb.min.js"></script>
-    <script src='{{ " /res/lib/jquery-3.1.1.min.js " }}'></script>
-    {% else %}
-    <script src='{{ " /res/lib/jquery-3.1.1.min.js " }}'></script>
+    {% elsif page.d3wb == 'latest' %}
+    <script src="{{ " /res/blogres/d3wb-latest/d3-wb.min.js " }}"></script>
     {% endif %}
+
+    <!-- ##################################################################
+         # DEFINITION OF OTHER LIBRARIES 
+         ##################################################################-->
+
+    <script src='{{ " /res/lib/jquery-3.1.1.min.js " }}'></script>
     
 </head>
