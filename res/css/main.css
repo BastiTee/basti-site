@@ -229,6 +229,7 @@ textarea {
     text-align: left;
     /*border: 1px solid red;*/
     font-size: 90%;
+    padding-right: 10px;
 }
 
 #bloglist .blogref a {
@@ -238,6 +239,7 @@ textarea {
 #bloglist .blogdate {
     /*border: 1px solid green;*/
     padding-top: 0.1em;
+    padding-left: 10px;
     padding-right: 1em;
     font-size: 80%;
     color: #555;
