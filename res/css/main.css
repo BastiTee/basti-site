@@ -216,6 +216,32 @@ textarea {
     border: none;
 }
 
+/* BLOG LIST
+============================================================================*/
+
+#bloglist * {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bloglist .blogref {
+    text-align: left;
+    /*border: 1px solid red;*/
+    font-size: 90%;
+}
+
+#bloglist .blogref a {
+    border-bottom: none;
+}
+
+#bloglist .blogdate {
+    /*border: 1px solid green;*/
+    padding-top: 0.1em;
+    padding-right: 1em;
+    font-size: 80%;
+    color: #555;
+}
 
 /* SITE DEFAULTS (CURRENTLY INDEX PAGE ONLY)
 ============================================================================*/
@@ -253,24 +279,9 @@ textarea {
     text-align: center;
 }
 
-#site-bloglist li {
-    padding: 0px;
-    list-style-type: none;
-}
-
-#site-bloglist ul {
-    padding: 0px;
-    margin: 0px;
-}
-
 #site-blogicon {
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 5px 0px;
 }
-
-#site-bloglist span.site-blogmeta {
-    font-size: 80%;
-}
-
 
 /* POST DEFAULTS
 ============================================================================*/
