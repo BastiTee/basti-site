@@ -1,0 +1,7 @@
+<div id="d3wb-{{ include.id }}" {% if include.height %}style="height: {{ include.height }}px; width: 100%;" {% endif %} class="figure" ><svg id="d3wb-svg-{{ include.id }}"></svg>
+<script src="{{ include.path }}svg.js" data-embedded="true" data-path="{{ include.path }}">
+</script>
+</div>
+{% if include.fs %}
+[Vollbild]({{ include.path }})
+{% endif %}

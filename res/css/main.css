@@ -169,7 +169,6 @@ textarea {
 
 #main-body sup {
     vertical-align: text-top;
-    ;
 }
 
 #post-content blockquote {
@@ -178,7 +177,12 @@ textarea {
 }
 
 #post-content blockquote p {
-    margin: auto;
+    margin-left: auto;
+    /*border: 1px solid red;*/
+    text-align: right;
+    font-size: 95%;
+    width: 75%;
+    font-style: italic;
 }
 
 #main-body table {
@@ -199,12 +203,22 @@ textarea {
     background-color: #DDEFF4;
 }
 
-#main-body p img {
+#main-body .image {
+    display:block;
     border: 1px solid #CCCCCC;
     box-shadow: 0 3px 5px 0px #CCCCCC;
-    margin: 0.4em 0.7em 0.4em 0em;
     width: 100%;
     max-width: 1280px;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-body .imagedesc {
+    text-align: center;
+    margin: auto;
+    font-size: 80%;
 }
 
 .iframes {
@@ -319,7 +333,7 @@ div#post-header-meta {
 
 #post-content {
     margin: auto;
-    padding: 0px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     max-width: 40em;
 }
 
