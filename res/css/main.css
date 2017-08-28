@@ -197,6 +197,11 @@ textarea {
     border-bottom: 1px solid #CCCCCC;
 }
 
+#main-body td a {
+    border-bottom: none;
+}
+
+
 #main-body th {
     font-weight: normal;
     text-align: left;
@@ -251,7 +256,6 @@ textarea {
 }
 
 #bloglist .blogdate {
-    /*border: 1px solid green;*/
     padding-top: 0.1em;
     padding-left: 10px;
     padding-right: 1em;
