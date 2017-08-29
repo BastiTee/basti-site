@@ -2,11 +2,5 @@ _site/
 _posts/
 _posts
 _config.yml
-<<<<<<< 53d17b0d1c6c8fe8a4ff854be7436b86f03e4940
-=======
-_includes/site-ext.html
-_includes/footer.html
-_includes/script.js
 _includes/tracking.html
->>>>>>> tracking
 res/blogres/
