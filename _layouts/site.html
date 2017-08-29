@@ -10,10 +10,12 @@
 
 <table id="bloglist">
 {% for post in site.posts %}
+{% if post.nolist != true %}
 <tr>
 <td valign="top" class="blogdate"><span class="site-blogmeta">{{ post.date | date: "%d.%m.%Y" }}</span></td>
 <td valign="top" class="blogref"><a href="{{ post.url }}">{{ post.title }}</a></td>
 </tr>
+{% endif %}
 {% endfor %}
 </table>
 
