@@ -5,7 +5,7 @@ CURRDIR="$( readlink -f $( pwd ))"
 echo "Initializing content from $CURRDIR"
 
 echo "Creating copies of default files..."
-for file in _posts _config.yml _includes/site-ext.html _includes/footer.html _includes/script.js
+for file in _posts _config.yml _includes/site-ext.html _includes/footer.html _includes/script.js _includes/tracking.html
 do
   if [ -L "$file" ]
   then
