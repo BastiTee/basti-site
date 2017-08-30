@@ -226,6 +226,11 @@ textarea {
     font-size: 80%;
 }
 
+#main-body .image-noborder {
+    border: none;
+    box-shadow: none;
+}
+
 .iframes {
     margin-top: 0.8em;
     width: 100%;

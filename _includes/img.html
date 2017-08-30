@@ -1,4 +1,4 @@
 <div style="width:100%; height:100%">
-    <img class="image" src="{{ include.src }}" {% if include.width %}style="width: {{ include.width }}%;" {% else %}style="width: 100%;" {% endif %}/>
+    <img class="image {% if include.border == false %}image-noborder{% endif %}" src="{{ include.src }}" {% if include.width %}style="width: {{ include.width }}%;" {% else %}style="width: 100%;" {% endif %}/>
     <p class="imagedesc">{{ include.desc }}</p>
 </div>
