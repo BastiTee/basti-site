@@ -1,4 +1,4 @@
-<div id="div-{{ include.id }}" {% if include.height %}style="height: {{ include.height }}px; width: 100%;" {% endif %} class="figure" >
+<div id="div-{{ include.id }}" {% if include.height %}style="height: {{ include.height }}px; width: 100%; position: relative;" {% endif %} class="visualization-svg-div" >
     <svg id="svg-{{ include.id }}"></svg>
     <script src="{{ include.path }}svg.js" embedded="true" datapath="{{ include.path }}" svgid="svg-{{ include.id }}" divid="div-{{ include.id }}">
 </script>
