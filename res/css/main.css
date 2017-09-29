@@ -369,6 +369,7 @@ div#post-header-buttonbar {
     text-align: center;
     bottom: 0.4em;
     right: 0.5em;
+    z-index: 999;
 }
 
 i.button {
