@@ -5,11 +5,11 @@
     <title>{% if page.title %}{{ site.title | escape }} &#183; {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    
+
     <!-- ##################################################################
-         # DEFINITION OF LOCAL STYLES 
+         # DEFINITION OF LOCAL STYLES
          ##################################################################-->
-    
+
     <link rel="stylesheet" href="{{ " /res/css/main.css " }}">
     <link href='{{ " /res/css/animate.css " }}' rel='stylesheet' type='text/css'>
     <link href='{{ " /res/font/sharetechmono.css " }}' rel='stylesheet' type='text/css'>
@@ -18,9 +18,9 @@
     <link rel="icon" type="image/png" href="{{ " /res/gfx/favicon.png " }}">
 
     <!-- ##################################################################
-         # DEFINITION OF D3-WORKBENCH DEPENDENCY 
+         # DEFINITION OF D3-WORKBENCH DEPENDENCY
          ##################################################################-->
-         
+
     {% if page.d3wb == '0.2.0' %}
     <script src="https://bastitee.github.io/d3-workbench-ghp/0.2.0-pre/d3-wb.min.js"></script>
     <link rel="stylesheet" href="https://bastitee.github.io/d3-workbench-ghp/0.2.0-pre/d3-wb.min.css">
@@ -30,16 +30,15 @@
     {% endif %}
 
     <!-- ##################################################################
-         # DEFINITION OF OTHER LIBRARIES 
+         # DEFINITION OF OTHER LIBRARIES
          ##################################################################-->
 
     <script src='{{ " /res/lib/jquery-3.1.1.min.js " }}'></script>
-    {% include tracking.html %}
-    
+
     <!-- ##################################################################
          # DEFINITION OF LOCAL INCLUDES
          ##################################################################-->
-             
+
     {% if page.includejs %}
         {% for item in page.includejs %}
             <script src='{{ item }}'></script>
