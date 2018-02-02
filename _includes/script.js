@@ -9,6 +9,7 @@ $.fn.extend({
 $('#main-body').animateCss('animated fadeIn');
 $('#site-title').animateCss('animated zoomIn');
 $('#site-avatar').animateCss('animated zoomIn');
+$('#site-footer').animateCss('animated slideInUp');
 $('#site-bloglist').animateCss('animated slideInLeft');
 $('#site-content').animateCss('animated slideInRight');
 $('#site-logo').animateCss('animated slideInDown');
