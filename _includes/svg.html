@@ -3,6 +3,4 @@
     <script src="{{ include.path }}svg.js" embedded="true" datapath="{{ include.path }}" svgid="svg-{{ include.id }}" divid="div-{{ include.id }}">
 </script>
 </div>
-{% if include.fs %}
-[Vollbild]({{ include.path }})
-{% endif %}
+{% if include.fs %}{% if include.fslabel %}[{{ include.fslabel }}]({{ include.path }}){% else %}[Vollbild]({{ include.path }}){% endif %}{% endif %}{% if include.viewsource %} [Sourcecode]({{ include.path }}/svg.js){% endif %}

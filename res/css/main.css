@@ -110,6 +110,10 @@ textarea {
     overflow-x: hidden;
 }
 
+#main-body code {
+    font-size: 118%;
+}
+
 #main-body p {
     margin: 10px 0px 10px 0px;
     padding: 0px;
