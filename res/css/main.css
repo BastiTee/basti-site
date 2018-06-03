@@ -272,6 +272,12 @@ textarea {
     color: #555;
 }
 
+.fa-external-link {
+    font-size: 50%;
+    margin-right: 0.3em;
+}
+
+
 /* SITE DEFAULTS (CURRENTLY INDEX PAGE ONLY)
 ============================================================================*/
 

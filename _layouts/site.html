@@ -9,12 +9,21 @@
         <div id="site-blogicon"><i class="fa fa-book" aria-hidden="true"></i></div>
 
         <table id="bloglist">
-            {% for post in site.posts %} {% if post.nolist != true %}
+            {% for post in site.posts %}
+            {% if post.nolist != true %}
+            {% if post.forward %}
+            <tr>
+                <td valign="top" class="blogdate"><span class="site-blogmeta">{{ post.date | date: "%d.%m.%Y" }}</span></td>
+                <td valign="top" class="blogref"><i class="fa fa-external-link" style="padding-right: 5px; font-size: 85%;"></i><a href="{{ post.forward }}" target="_blank">{{ post.title }}</a></td>
+            </tr>
+            {% else %}
             <tr>
                 <td valign="top" class="blogdate"><span class="site-blogmeta">{{ post.date | date: "%d.%m.%Y" }}</span></td>
                 <td valign="top" class="blogref"><a href="{{ post.url }}">{{ post.title }}</a></td>
             </tr>
-            {% endif %} {% endfor %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
         </table>
 
     </div>
