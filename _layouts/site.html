@@ -3,47 +3,55 @@
 {% include head.html %}
 
 <body id="main-body">
-{% include site-ext.html %}
+    {% include site-ext.html %}
 
-<div id="site-bloglist">
-<div id="site-blogicon"><i class="fa fa-book" aria-hidden="true"></i></div>
+    <div id="site-bloglist">
+        <div id="site-blogicon"><i class="fa fa-book" aria-hidden="true"></i></div>
 
-<table id="bloglist">
-{% for post in site.posts %}
-{% if post.nolist != true %}
-<tr>
-<td valign="top" class="blogdate"><span class="site-blogmeta">{{ post.date | date: "%d.%m.%Y" }}</span></td>
-<td valign="top" class="blogref"><a href="{{ post.url }}">{{ post.title }}</a></td>
-</tr>
-{% endif %}
-{% endfor %}
-</table>
+        <table id="bloglist">
+            {% for post in site.posts %} {% if post.nolist != true %}
+            <tr>
+                <td valign="top" class="blogdate"><span class="site-blogmeta">{{ post.date | date: "%d.%m.%Y" }}</span></td>
+                <td valign="top" class="blogref"><a href="{{ post.url }}">{{ post.title }}</a></td>
+            </tr>
+            {% endif %} {% endfor %}
+        </table>
 
-</div>
-<style>
-#site-footer {
-    text-align: center;
-    margin-top: 1.3em;
-}
-#site-footer img {
-    border-width:0;
-    width:130px;
-    margin: 0px;
-}
-</style>
+    </div>
+    <style>
+        #site-footer {
+            text-align: center;
+            margin-top: 1.3em;
+        }
 
-<footer id="site-footer">
-    <p>
-        <a rel=" license " href="{{ " /res/gfx/organic.png " }}">
+        #site-footer img {
+            border-width: 0;
+            width: 130px;
+            margin: 0px;
+        }
+
+        #site-footer .gdpr {
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+            font-size: 70%;
+        }
+    </style>
+
+    <footer id="site-footer">
+        <p>
+            <a rel=" license " href="{{ " /res/gfx/organic.png " }}">
 	<img alt="100% organic website logo" title="Icon made by 'Those Icons' from www.flaticon.com (CC BY 3.0)" src="{{ " /res/gfx/organic.png " }}" />
 </a>
-    </p>
+        </p>
+        <div class="gdpr">
+            <a href="/2018/05/25/dsgvo-statement.html">Impress / GDPR</a>
+        </div>
+    </footer>
 
-</footer>
-
-<script>
-{% include script.js %}
-</script>
+    <script>
+        { % include script.js %
+        }
+    </script>
 </body>
 
 </html>
